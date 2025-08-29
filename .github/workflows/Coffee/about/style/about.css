@@ -1,0 +1,66 @@
+@import
+url('https://fonts.googleapis.com/css?family=Roboto');
+
+.nav{
+  background-color: orangered;
+  height: 50px; 
+}
+
+.nav div{
+  display: inline-block;
+  position: absolute;
+  left: 0px;
+  padding: 15px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.nav ul{
+  position: absolute;
+  right: 5px;
+}
+
+.nav ul li{
+  display: inline-block;
+}
+
+.nav ul li a{
+  color: #fff;
+  padding: 5px;
+}
+
+.home{
+  background-image: url("../images/nathan-dumlao-KixfBEdyp64-unsplash.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+
+.home .text-container{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 90vh;
+  align-items: center;
+  
+}
+
+.about .about-content{
+    margin: 150px auto 0 auto;
+    width: 500px;
+}
+
+.about .about-content h1{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: red;
+}
+
+.about .about-content .about-text{
+    text-align: justify;
+    font-family: 'Lato', sans-serif;
+    color: green;
+    border: 3px solid;
+    border-color: aqua;
+    padding: 15px;
+}
+

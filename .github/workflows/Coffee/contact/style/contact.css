@@ -1,0 +1,45 @@
+@import
+url('https://fonts.googleapis.com/css?family=Roboto');
+
+.nav{
+  background-color: orangered;
+  height: 50px; 
+}
+
+.nav div{
+    position: absolute;
+    left: 0px;
+    display: inline-block;
+    padding: 15px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.nav ul{
+    position: absolute;
+    right: 5px;
+}
+
+.nav ul li{
+    display: inline-block;
+}
+
+.nav ul li a{
+    color: #fff;
+    padding: 5px;
+}
+
+.contact .contact-content{
+    text-align: center;
+    margin: 80px auto 0auto;
+}
+
+.contact .contact-content h1{
+    font-family: 'Roboto', sans-serif;
+    color: red;
+}
+
+
+.contact .contact-content .contact-address{
+    font-family: 'Lato', sans-serif;
+}

@@ -1,0 +1,47 @@
+.nav{
+  background-color: orangered;
+  height: 50px; 
+}
+
+.nav div{
+  display: inline-block;
+  position: absolute;
+  left: 0px;
+  padding: 15px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.nav ul{
+  position: absolute;
+  right: 5px;
+}
+
+.nav ul li{
+  display: inline-block;
+}
+
+.nav ul li a{
+  color: #fff;
+  padding: 5px;
+}
+
+.home{
+  background-image: url("../images/nathan-dumlao-KixfBEdyp64-unsplash.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+
+.home .home-content{
+  margin: 80px auto 0 auto;
+  text-align: center;
+}
+
+
+.home .home-content h1{
+  font-size: 50px;
+}
+
+.home .home-content{
+  font-size: 20px;
+}
